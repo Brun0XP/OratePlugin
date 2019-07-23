@@ -1,9 +1,27 @@
-language: en_US
+language: pt_BR
 
 mysql:
   enable: false
   host: localhost
   port: 3306
-  database: spigotplugintemp
+  database: orate
   username: username
   password: password
+
+region-name: yggdrasil
+command-cooldown: 1440
+
+money:
+  enable: false
+  amount: 1000
+
+item:
+  enable: true
+  material: TOTEM
+  amount: 1
+  data: 0
+  display-name: "&6&lGift of Yggdrasil"
+  lore:
+    - ''
+    - '&7Used to exchange for'
+    - ' &7other items.'

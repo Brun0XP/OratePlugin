@@ -1,4 +1,4 @@
-package com.github.brun0xp.spigotplugintemp.commands.manager;
+package com.github.brun0xp.orateplugin.commands.manager;
 
 import lombok.Getter;
 import org.bukkit.command.CommandSender;

@@ -1,8 +1,9 @@
-package com.github.brun0xp.spigotplugintemp.commands.manager;
+package com.github.brun0xp.orateplugin.commands.manager;
 
-import com.github.brun0xp.spigotplugintemp.Main;
-import com.github.brun0xp.spigotplugintemp.commands.Example;
-import com.github.brun0xp.spigotplugintemp.resource.Message;
+import com.github.brun0xp.orateplugin.Main;
+import com.github.brun0xp.orateplugin.commands.Orate;
+import com.github.brun0xp.orateplugin.resource.Message;
+import lombok.AccessLevel;
 import lombok.Getter;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -13,7 +14,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-@Getter
+@Getter(value = AccessLevel.PRIVATE)
 public class CommandManager implements CommandExecutor, TabCompleter {
 
     private Main main;
@@ -22,7 +23,7 @@ public class CommandManager implements CommandExecutor, TabCompleter {
 
     public CommandManager(Main main){
         this.main = main;
-        this.getAbstractCommands().add(new Example());
+        this.getAbstractCommands().add(new Orate(this.getMain()));
 
         for (AbstractCommand abstractCommand : this.getAbstractCommands()) {
             this.getMain().getCommand(abstractCommand.getName()).setExecutor(this);

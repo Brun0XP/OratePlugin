@@ -3,4 +3,9 @@ messages:
     usage: '&4&lErro &7» &cUso correto: {usage}'
     permission: '&4&lErro &7» &cVocê não tem a permissão ''&7{permission}&c'' para usar este comando!'
     unknown: '&4&lErro &7» &cUm erro desconhecido ocorreu ao executar o comando, entre em contato com o suporte.'
-  example: '&6&lExemplo &7» &eEste é um comando de exemplo.'
+    console: '&4&lErro &7» &cEste comando so pode ser usando in-game!'
+    out-of-area: '&4&lErro &7» &cVocê só pode usar este comando nas redondezas da árvore &nYggdrasil!'
+    cooldown: '&4&lErro &7» &cVocê precisa aguardar o tempo para orar novamente!'
+  orate:
+    money-received: "&6&lOrar &7» &eA grande árvore Yggdrasil lhe presenteia com {value}"
+    item-received: "&6&lOrar &7» &eA grande árvore Yggdrasil lhe presenteia com o totem"

@@ -1,6 +1,6 @@
-package com.github.brun0xp.spigotplugintemp.resource;
+package com.github.brun0xp.orateplugin.resource;
 
-import com.github.brun0xp.spigotplugintemp.Main;
+import com.github.brun0xp.orateplugin.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;

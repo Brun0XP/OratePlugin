@@ -1,10 +1,10 @@
 name: ${project.name}
-main: com.github.brun0xp.spigotplugintemp.Main
+main: com.github.brun0xp.orateplugin.Main
 version: ${project.version}
 description: ${project.description}
 author: Brun0XP
-api-version: 1.13
+depend: [WorldGuard]
 
 commands:
-  example:
-    description: Example command
+  orar:
+    description: Orate command

@@ -1,7 +1,9 @@
-package com.github.brun0xp.spigotplugintemp.resource;
+package com.github.brun0xp.orateplugin.resource;
 
-import com.github.brun0xp.spigotplugintemp.Main;
+import com.github.brun0xp.orateplugin.Main;
 import com.google.common.base.Charsets;
+import lombok.AccessLevel;
+import lombok.Getter;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
@@ -11,6 +13,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.logging.Level;
 
+@Getter(value = AccessLevel.PROTECTED)
 public abstract class AbstractFile {
 
     private final Main main;
