@@ -1,0 +1,10 @@
+name: ${project.name}
+main: com.github.brun0xp.spigotplugintemp.Main
+version: ${project.version}
+description: ${project.description}
+author: Brun0XP
+api-version: 1.13
+
+commands:
+  example:
+    description: Example command

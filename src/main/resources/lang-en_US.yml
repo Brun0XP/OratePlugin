@@ -1,0 +1,6 @@
+messages:
+  error:
+    usage: '&4&lError &7» &cUsage: {usage}'
+    permission: '&4&lError &7» &cYou do not have permission ''&7{permission}&c'' to use this command!'
+    unknown: '&4&lError &7» &cAn unknown error occurred while executing the command, please contact support.'
+  example: '&6&lExample &7» &eThis is an example command.'
